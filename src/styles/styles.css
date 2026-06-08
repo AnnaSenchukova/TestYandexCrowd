@@ -1,14 +1,3 @@
-h1 {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    color: red;
-}
-
-
-.test {
-    position: sticky; /* ждём -webkit-sticky */
-    user-select: none; /* ждём -webkit-user-select */
-    -webkit-backface-visibility: hidden; /* проверка backface */
-}
+@import 'normalize.css';
+@import 'base/reset.css';
+@import 'base/utils.css';

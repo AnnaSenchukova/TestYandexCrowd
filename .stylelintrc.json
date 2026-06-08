@@ -12,11 +12,14 @@
     "selector-max-type": 0,
     "no-descending-specificity": true,
     "declaration-no-important": true,
+    "declaration-empty-line-before": null,
+    "selector-not-notation": "simple",
+    "import-notation": "string",
     "order/order": ["custom-properties", "declarations"]
   },
   "overrides": [
     {
-      "files": ["**/reset.css", "**/base/**.css"],
+      "files": ["**/reset.css"],
       "rules": {
         "selector-max-type": null,
         "selector-class-pattern": null,

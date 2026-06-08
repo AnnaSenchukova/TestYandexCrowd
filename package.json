@@ -24,8 +24,10 @@
   "author": "",
   "license": "UNLICENSED",
   "browserslist": [
-    "> 0.5%",
-    "last 2 versions",
+    "last 5 versions",
+    "> 0.2%",
+    "iOS >= 10",
+    "Safari >= 10",
     "Firefox ESR",
     "not dead"
   ],

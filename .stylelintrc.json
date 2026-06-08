@@ -14,6 +14,7 @@
     "declaration-no-important": true,
     "declaration-empty-line-before": null,
     "selector-not-notation": "simple",
+    "font-family-name-quotes": "always-unless-keyword",
     "import-notation": "string",
     "order/order": ["custom-properties", "declarations"]
   },

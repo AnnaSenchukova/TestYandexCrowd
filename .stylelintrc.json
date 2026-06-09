@@ -13,8 +13,11 @@
     "no-descending-specificity": true,
     "declaration-no-important": true,
     "declaration-empty-line-before": null,
+    "custom-property-empty-line-before": null,
     "selector-not-notation": "simple",
     "font-family-name-quotes": "always-unless-keyword",
+    "color-hex-length": "long",
+    "media-feature-range-notation": null,
     "import-notation": "string",
     "order/order": ["custom-properties", "declarations"]
   },

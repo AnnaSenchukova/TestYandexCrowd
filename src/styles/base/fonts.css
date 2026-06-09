@@ -1,6 +1,16 @@
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    url('../../fonts/Merriweather-Bold.woff2') format('woff2'),
+    url('../../fonts/Merriweather-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:

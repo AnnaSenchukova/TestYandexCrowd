@@ -1,0 +1,75 @@
+:root {
+  --bp-mobile: 375px;
+  --bp-desktop: 1366px;
+
+  --font-display: 'Merriweather', georgia, serif;
+  --font-body: 'Golos Text', roboto, sans-serif;
+
+  --color-text-dark: #313131;
+  --color-text-dark-button: #1f1f1f;
+  --color-text-light: #ffffff;
+  --color-text-accent-display: #f54932;
+  --color-text-accent-body: #3057a2;
+  --text-fade: 60%;
+  --text-fade-max: 70%;
+
+  --color-bg: #ffffff;
+  --color-bg-accent: #f54932;
+  --color-bg-sceleton: #e9ded4;
+
+  --color-bg-button-dark: #1f1f1f;
+  --color-bg-button-dark-hover: #fbce51;
+  --color-bg-button-light: transparent;
+  --color-bg-button-light-hover: #1f1f1f;
+
+  --color-bg-slider-arrow: #ffffff;
+  --color-bg-slider-controls-active: #313131;
+  --color-bg-slider-controls-hover: #fbce51;
+  --color-bg-slider-controls-disabled: #d6d6d6;
+  --color-bg-slider-dots-active: #313131;
+  --color-bg-slider-dots-disabled: #d9d9d9;
+
+  --color-bg-link: #ffffff;
+  --color-bg-link-hover: #3057a2;
+
+  --color-border: #d0d0d0;
+  --color-border-button: #1f1f1f;
+  --color-border-link: #3057a2;
+
+  --shadow: 5px 4px 13px rgba(0 0 0 / 25%);
+
+  --radius-pill: 9999px;
+  --radius-round: 50%;
+
+  --size-base: 4px;
+  --size-6: calc(var(--size-base) * 1.5);
+  --size-8: calc(var(--size-base) * 2);
+  --size-10: calc(var(--size-base) * 2.5);
+  --size-12: calc(var(--size-base) * 3);
+  --size-14: calc(var(--size-base) * 3.5);
+  --size-16: calc(var(--size-base) * 4);
+  --size-20: calc(var(--size-base) * 5);
+  --size-24: calc(var(--size-base) * 6);
+  --size-28: calc(var(--size-base) * 7);
+  --size-32: calc(var(--size-base) * 8);
+  --size-40: calc(var(--size-base) * 10);
+  --size-44: calc(var(--size-base) * 11);
+  --size-48: calc(var(--size-base) * 12);
+  --size-60: calc(var(--size-base) * 15);
+  --size-72: calc(var(--size-base) * 18);
+  --size-80: calc(var(--size-base) * 20);
+  --size-100: calc(var(--size-base) * 25);
+  --size-120: calc(var(--size-base) * 30);
+  --size-140: calc(var(--size-base) * 35);
+  --size-200: calc(var(--size-base) * 50);
+
+  --space-container: var(--size-20);
+  --space-block-bottom: var(--size-120);
+}
+
+@media (min-width: 1366px) {
+  :root {
+    --space-container: var(--size-72);
+    --space-block-bottom: var(--size-200);
+  }
+}
